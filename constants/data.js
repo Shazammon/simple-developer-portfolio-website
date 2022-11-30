@@ -89,7 +89,7 @@ const userData = {
       desc: "Developed a web version of the famous Wheel of Fortune game show.",
     },
     {
-      title: "Chief of Staff - Strategy & Operations Dept",
+      title: "Chief of Staff - Strategy & Operations",
       company: "Better.com",
       year: "2021",
       companyLink: "https://better.com/",
@@ -107,10 +107,10 @@ const userData = {
     "https://docs.google.com/document/d/1oLKumlDWxNeYx8lQD2OeIoBeLv8Je7euVDc2zumZOoc/edit",
   socialLinks: {
     instagram: "https://www.instagram.com/slamminammon/",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
+    twitter: "https://twitter.com/AMMONorgill",
+    linkedin: "https://www.linkedin.com/in/ammono/",
+    github: "https://github.com/Shazammon",
+    facebook: "https://www.facebook.com/ammon.orgill",
   },
 };
 

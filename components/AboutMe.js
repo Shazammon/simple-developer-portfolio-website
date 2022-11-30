@@ -17,7 +17,7 @@ export default function AboutMe() {
           >
             {userData.about.title}. Currently working on{" "}
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="bg-blue-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
               {userData.about.currentProject} ✈️
@@ -49,16 +49,16 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
+                I'm currently looking for a new job! take a look at my,
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  CV
+                  Resume
                 </a>{" "}
-                and I'd love to work for you.
+                to see if I'd be a good fit for your organization.
               </p>
             </div>
             {/* Social Links */}
