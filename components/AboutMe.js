@@ -20,7 +20,7 @@ export default function AboutMe() {
               className="bg-blue-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentProject} 🏠
             </a>
           </p>
         </div>
@@ -34,7 +34,7 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any inquiries, job opportunities, or coffee chat requests, shoot an{" "}
+                For any inquiries, job opportunities, or coffee chat requests, shoot me an{" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
@@ -50,7 +50,7 @@ export default function AboutMe() {
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 I'm currently looking for a new job! take a look at my,
-                check my{" "}
+                check out my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
