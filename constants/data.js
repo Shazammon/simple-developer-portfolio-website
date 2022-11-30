@@ -104,7 +104,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1oLKumlDWxNeYx8lQD2OeIoBeLv8Je7euVDc2zumZOoc/edit",
+    "https://docs.google.com/document/d/1SwNdDqEDbaaVFOmlBGqxEXtAei4HH-_N_fnRpKJF2Mg/",
   socialLinks: {
     instagram: "https://www.instagram.com/slamminammon/",
     twitter: "https://twitter.com/AMMONorgill",
