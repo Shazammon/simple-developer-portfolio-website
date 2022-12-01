@@ -6,16 +6,16 @@ export default function AboutMe() {
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          About Me.
+          About Me
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            {userData.about.title} I'm currently working on a{" "}
             <a
               className="bg-blue-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -139,58 +139,142 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="bg-pink-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                  className="h-20 w-20"
+                />
+                <p className="text-center mt-1">
+                  Javascript
+                </p>
+
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  Node.js
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  HTML5
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  CSS3
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  React
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  Python
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  PostgreSQL
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  MongoDB
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  Git
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  Tailwind
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  Bootstrap
+                </p>
+              </div>
+
+              <div className="mx-4 my-4">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+                  className="h-20 w-20"
+                />
+                <p 
+                  className="text-center mt-1">
+                  Express
+                </p>
+              </div>
+
             </div>
           </div>
         </div>
