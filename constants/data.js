@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "/Ammon1.jpg",
   email: "ammonorgill@gmail.com",
   phone: "+1 7143511599",
-  address: "Los Angeles, CA",
+  address: "Salt Lake City, UT | Los Angeles, CA",
   projects: [
     {
       title: "Musicly",
@@ -31,13 +31,13 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer who loves buidling beautiful applications that users love",
+      `Hi, I'm Ammon👋  I'm a software developer with a passion for building websites that people love to use.`,
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I recently completed a 12-week intenstive software engineering bootcamp. I am eager to put my development skills to work and continue improving my coding language skills.`,
+      `I enjoy building intuitive websties that people love to use. I have a passion for creating and building.`, 
+      `I have years of corporate experience in Business Strategy & Operations which allowed me to develop in-depth business acumen and a sharp eye for executing strategic initiaitves. I bring those skills to the table to ensure that products I create meet key business objectives.`,
     ],
-    currentProject: "Private Vacation Home Booking",
+    currentProject: "Vacation Home Booking Site",
     currentProjectUrl: "https://www.airbnb.com/rooms/655310364978695534?preview_for_ml=true&source_impression_id=p3_1669844219_AyvFEgsdQa3Zwaj7",
   },
   experience: [
