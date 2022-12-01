@@ -15,7 +15,7 @@ const userData = {
     {
       title: "National Park Love",
       link: "https://national-park-love-shazammon.koyeb.app/",
-      imgUrl: "/",
+      imgUrl: "/nationalpark.png",
     },
     {
       title: "Goal Digger",
@@ -25,7 +25,7 @@ const userData = {
     {
       title: "Wheel of Fortune",
       link: "https://shazammon.github.io/p1-wheel-of-fortune/",
-      imgUrl: "/wheeloffotune.png",
+      imgUrl: "/wheel2.png",
     },
 
   ],
@@ -72,14 +72,14 @@ const userData = {
     {
       title: "Chief of Staff - Strategy & Operations",
       company: "Better.com",
-      year: "2021",
+      year: "2021-2022",
       companyLink: "https://better.com/",
       desc: "Developed and implemented the strategic plan for 10,000 person organization, realized strategic transformational initiatives to improve company KPIs.",
     },
     {
       title: "Senior Consultant",
       company: "Parthenon-EY",
-      year: "2017",
+      year: "2017-2021",
       companyLink: "https://www.ey.com/en_us/strategy-transactions/strategy-services",
       desc: "Provided thought partnership and operational execution support of key strategic initiatives and achieving synergies of mergers and acquisitions.",
     },
