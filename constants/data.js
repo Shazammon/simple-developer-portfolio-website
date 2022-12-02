@@ -83,6 +83,13 @@ const userData = {
       companyLink: "https://www.ey.com/en_us/strategy-transactions/strategy-services",
       desc: "Provided thought partnership and operational execution support of key strategic initiatives and achieving synergies of mergers and acquisitions.",
     },
+    {
+      title: "Financial Statement Assurance Senior",
+      company: "EY",
+      year: "2014-2017",
+      companyLink: "https://www.ey.com/en_us",
+      desc: "Led multiple teams in performing financial statement assurance services for a clientele of 4 public/private technology companies.",
+    },
   ],
   resumeUrl:
     "https://docs.google.com/document/d/1SwNdDqEDbaaVFOmlBGqxEXtAei4HH-_N_fnRpKJF2Mg/",
