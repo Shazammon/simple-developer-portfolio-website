@@ -27,18 +27,16 @@ const userData = {
       link: "https://shazammon.github.io/p1-wheel-of-fortune/",
       imgUrl: "/wheel2.png",
     },
-
   ],
   about: {
-    title:
-      `Hi, I'm Ammon👋  I'm a software developer with a passion for building websites that people love to use.`,
+    title: `Hi, I'm Ammon👋  I'm a software developer with a passion for building websites that people love to use.`,
     description: [
       `I recently completed a 12-week intenstive software engineering bootcamp. I am eager to put my development skills to work and continue improving my coding language skills.`,
-      `I enjoy building intuitive websties that people love to use. I have a passion for creating and building.`, 
+      `I enjoy building intuitive websties that people love to use. I have a passion for creating and building.`,
       `I have years of corporate experience in Business Strategy & Operations which allowed me to develop in-depth business acumen and a sharp eye for executing strategic initiaitves. I bring those skills to the table to ensure that products I create meet key business objectives.`,
     ],
-    currentProject: "Vacation Home Booking Site",
-    currentProjectUrl: "https://www.airbnb.com/rooms/655310364978695534?preview_for_ml=true&source_impression_id=p3_1669844219_AyvFEgsdQa3Zwaj7",
+    currentProject: "Mel's Learning Garden",
+    currentProjectUrl: "https://github.com/Shazammon/melslearninggarden",
   },
   experience: [
     {
@@ -80,7 +78,8 @@ const userData = {
       title: "Senior Consultant",
       company: "Parthenon-EY",
       year: "2017-2021",
-      companyLink: "https://www.ey.com/en_us/strategy-transactions/strategy-services",
+      companyLink:
+        "https://www.ey.com/en_us/strategy-transactions/strategy-services",
       desc: "Provided thought partnership and operational execution support of key strategic initiatives and achieving synergies of mergers and acquisitions.",
     },
     {
